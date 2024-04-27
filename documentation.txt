@@ -1,0 +1,13 @@
+L'UTILISATION DE L'APPLICATION TODOLIST
+
+    1- Entrer une tache à partir du formulaire
+
+    2- Cliquer sur le bouton ADD TODO pour ajouter une tache dans la liste
+
+    3- Le bouton DELETE permet de supprimer une tache de la liste
+
+    4- Pour marquer une tache comme terminée ou encours, veullez cliquer sur la tache
+
+    5- En cas de click sur le bouton "Delete", supprimer le todo 
+
+    6- Une fois la liste des taches établis, vous avez la possibilité de tout supprimé avec le bouton DELETE ALL

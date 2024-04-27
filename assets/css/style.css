@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-color: rgb(17, 200, 200);
+}
+form.real-btn button,form.real-btn .btn, a.deleteAll .btn{
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(104, 104, 104);
+}
+.container {
+    width: 90%;
+    outline: none;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 12px rgb(104, 104, 104);
+}
+.container form{
+    display: flex;
+    gap: 10px;
+    
+    
+    
+}
+.container form > input{
+    flex: 1;
+    height: 30px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.container ul{
+    list-style: none;
+    padding: 0;
+}
+.container li{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    min-height: 30px;
+    
+}
+
+.container li input{
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.container li form.form-1{
+    flex: 1;
+
+}
+.container li form.form-1 button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.container li form.form-1 button.selected{
+    text-decoration: line-through;
+}
+
+form.real-btn .btn{
+    min-width: 70px;
+}
+
+form.real-btn .btn-danger{
+    background-color: rgb(255, 72, 72);
+}
+.btn-primary{
+    background-color: teal;
+}
+form.real-btn .btn-success{
+    background-color: rgb(60, 60, 254);
+}
+a.deleteAll .btn-warning{
+    background-color: rgb(251, 134, 0);
+}
+
+
